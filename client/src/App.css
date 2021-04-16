@@ -1,1 +1,180 @@
+.input label {
+  margin: 10px 0;
+  font-size: 20px;
+}
 
+.input div {
+  display: flex;
+  text-align: right;
+}
+
+.input input,
+p {
+  flex: 1;
+}
+
+.input p {
+  color: red;
+}
+
+.input input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.form-holder {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.radio {
+  margin: 10px 0;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity label {
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  background: #eb5146;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.food-btn {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  background: #eb5146;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.foods-wrapper p {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  background: #d6d6d6;
+
+  transition: all 0.15s ease-in;
+}
+
+.foods-wrapper p:hover {
+  background: #dbdbdb;
+}
+
+.table-holder {
+  display: flex;
+}
+
+.table-holder .nutrient {
+  flex: 1;
+}
+
+.table-holder .recommend {
+  flex: 2;
+}
+
+tr {
+  transition: all 0.15s ease-in;
+}
+
+thead td {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.modal-p {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.recommend {
+  text-align: center;
+}
+
+.food-img {
+  width: 200px;
+}
+
+.recommend-table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+.recommend-table thead {
+  background: #a1a1a1;
+}
+
+.recommend-table td {
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.recommend-table tr:nth-of-type(even) {
+  background: #dedede;
+}
+
+.recommend-table tr:nth-of-type(even):hover {
+  background: #cccccc;
+}
+
+.recommend-table tr:nth-of-type(odd):hover {
+  background: #f5f5f5;
+}
+
+.nutrient-table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+.nutrient-table thead {
+  background: #a1a1a1;
+}
+
+.nutrient-table td {
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.nutrient-table tr:nth-of-type(even) {
+  background: #dedede;
+}
+
+.nutrient-table tr:nth-of-type(even):hover {
+  background: #cccccc;
+}
+
+.nutrient-table tr:nth-of-type(odd):hover {
+  background: #f5f5f5;
+}
+
+.search-box {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background: #d6d6d6;
+}

@@ -223,7 +223,7 @@ class App extends Component {
                   autoComplete="off"
                   onChange={this.onChange}
                 />
-                <p className="message">*between 80 - 220 KG</p>
+                <p className="message">*between 80 - 220 CM</p>
               </div>
             </div>
 

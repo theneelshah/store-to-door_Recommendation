@@ -177,6 +177,8 @@ class App extends Component {
       <div className="App">
         {currentFood && <FoodDetails food={currentFood} />}
 
+        <h1>Recommendation</h1>
+
         <div className="form-holder">
           <form onSubmit={this.onSubmit}>
             <div className="age input">

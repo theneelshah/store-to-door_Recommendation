@@ -228,7 +228,9 @@ class App extends Component {
             </div>
 
             <div className="radio">
-              <label htmlFor="gender-radio">Gender</label>
+              <label htmlFor="gender-radio" className="bold-label">
+                Gender
+              </label>
 
               <div className="radio-btn">
                 <input
@@ -255,7 +257,9 @@ class App extends Component {
             </div>
 
             <div className="activity">
-              <label htmlFor="activity">Activity Level</label>
+              <label htmlFor="activity" className="bold-label">
+                Activity Level
+              </label>
 
               <select name="activity" id="activity" onChange={this.onChange}>
                 <option value="-1">--select</option>
